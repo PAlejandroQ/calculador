@@ -1,4 +1,4 @@
-package com.checha.calculador;
+package com.desarrollo.calculador;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

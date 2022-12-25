@@ -1,4 +1,4 @@
-package com.checha.calculador;
+package com.desarrollo.calculador;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
