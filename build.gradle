@@ -20,5 +20,3 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
-compileJava.options.fork = true
-compileJava.options.forkOptions.executable = '/opt/java/openjdk'
