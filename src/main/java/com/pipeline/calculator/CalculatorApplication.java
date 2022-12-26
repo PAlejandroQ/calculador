@@ -1,13 +1,13 @@
-package com.desarrollo.calculador;
+package com.pipeline.calculator;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CalculadorApplication {
+public class CalculatorApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CalculadorApplication.class, args);
+		SpringApplication.run(CalculatorApplication.class, args);
 	}
 
 }
