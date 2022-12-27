@@ -13,4 +13,7 @@ class CalculadorControler {
                @RequestParam("b") Integer b) {
         return String.valueOf(calculador.sum(a, b));
     }
+    public static void main(String[] args) {
+
+    }
 }
