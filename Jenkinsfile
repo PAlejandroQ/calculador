@@ -42,8 +42,6 @@ pipeline {
             subject:"Completed Pipeline: ${currentBuild.fullDisplayName}",
             body:"Your build completed, please check: ${env.BUILD_URL}"
         }
-    }
-    post {
         failure {
             slackSend channel: '#sprint',
             color: 'danger',
